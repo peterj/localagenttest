@@ -1,0 +1,14 @@
+agentName: localagenttest
+image: docker.io/pj3677/localagent:0.0.1
+language: python
+framework: adk
+modelProvider: gemini
+modelName: gemini-2.0-flash
+description: ""
+mcpServers:
+    - type: registry
+      name: my-mcp-server
+      registryURL: http://localhost:12121
+      registryServerName: user/my-mcp-server
+      registryServerVersion: 0.1.0
+updatedAt: 2026-02-08T17:53:20.298038-08:00

@@ -1,0 +1,9 @@
+[project]
+name = "localagenttest"
+version = "0.1"
+description = "localagenttest agent"
+readme = "README.md"
+dependencies = [
+  "google-adk>=1.8.0",
+]
+
