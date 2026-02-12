@@ -8,7 +8,7 @@ description: ""
 mcpServers:
     - type: registry
       name: my-mcp-server
-      registryURL: 172.19.0.4:8080
+      registryURL: http://172.19.0.4:8080
       registryServerName: user/my-mcp-server
       registryServerVersion: 0.1.0
 updatedAt: 2026-02-08T17:53:20.298038-08:00
