@@ -1,8 +1,18 @@
 agentName: localagenttest
-image: localhost:5001/localagenttest:latest
+image: docker.io/pj3677/localagenttest:latest
 language: python
 framework: adk
 modelProvider: gemini
 modelName: gemini-2.5-flash
 description: ""
-updatedAt: 2026-02-20T10:38:48.147895-08:00
+mcpServers:
+    - type: registry
+      name: peterj-peters-mcp
+      env:
+        - MCP_TRANSPORT_MODE=http
+        - HOST=0.0.0.0
+        - MCP_STATELESS_HTTP=true
+      registryURL: http://172.19.0.4:8080
+      registryServerName: peterj/peters-mcp
+      registryServerVersion: 0.1.0
+updatedAt: 2026-02-20T13:27:39.198977-08:00

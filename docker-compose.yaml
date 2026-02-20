@@ -3,7 +3,7 @@
 
 services:
   localagenttest:
-    image: localhost:5001/localagenttest:latest
+    image: docker.io/pj3677/localagenttest:latest
     build:
       context: .
       dockerfile: Dockerfile
