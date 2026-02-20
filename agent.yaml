@@ -1,0 +1,8 @@
+agentName: localagenttest
+image: localhost:5001/localagenttest:latest
+language: python
+framework: adk
+modelProvider: gemini
+modelName: gemini-2.5-flash
+description: ""
+updatedAt: 2026-02-20T10:38:48.147895-08:00
