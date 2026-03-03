@@ -5,14 +5,4 @@ framework: adk
 modelProvider: gemini
 modelName: gemini-2.5-flash
 description: ""
-mcpServers:
-    - type: registry
-      name: peterj-peters-mcp
-      env:
-        - MCP_TRANSPORT_MODE=http
-        - HOST=0.0.0.0
-        - MCP_STATELESS_HTTP=true
-      registryURL: http://172.19.0.4:8080
-      registryServerName: peterj/peters-mcp
-      registryServerVersion: 0.1.0
 updatedAt: 2026-02-20T13:27:39.198977-08:00
